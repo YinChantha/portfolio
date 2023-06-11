@@ -13,10 +13,9 @@ const Navbar = () => {
     <div>
       <nav
         className={`relative z-10 md:bg-none items-center ${
-          blurbackground ? "bg-gradient-to-tr from-gray-900 inset-0" : ""
+          blurbackground ? "bg-gradient-to-tr from-gray-900" : ""
         }`}
       >
-        <div>
           <div className="flex items-center justify-end py-1 md:py-5 md:block">
             <div className="md:hidden">
               <button
@@ -55,19 +54,17 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-        </div>
         <div
           className={`flex justify-center items-center pb-8 md:block md:pb-0 md:mt-0 ${
             navbar ? "block" : "hidden"
           }`}
         >
           <ul className="items-center justify-center gap-10 space-y-2 md:flex md:space-x-6 md:space-y-0">
-
             <li
-              className="text-gray-400 hover:text-blue-600"
+              className="text-gray-400 hover:text-blue-600 "
               onClick={toggleNavbar}
             >
-              <Link to="/" className="font-abhaya font-semibold text-3xl focus:text-violet-600">
+              <Link to="/" className="font-abhaya font-semibold text-3xl ">
                 Home
               </Link>
             </li>
