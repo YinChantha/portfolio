@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "material-icons/iconfont/material-icons.css";
+import Marquee from "react-fast-marquee";
 const Myproject = (prop) => {
-  const [navbar, setNavbar] = useState(false);
   return (
     <div className="absolute inset-0 w-full">
       <div
@@ -24,7 +24,7 @@ const Myproject = (prop) => {
         <div className="flex justify-center">
           <div className="w-full md:w-6/12 ">
             <img
-              src="src/assets/editor.png"
+              src="../assets/editor.png"
               className="max-w-full rounded-lg"
               alt=""
             />
@@ -54,6 +54,38 @@ const Myproject = (prop) => {
             </div>
           </div>
         </div>
+
+        <div className="mt-20 h-8 md:h-10">
+          <Marquee direction="right" speed={100} delay={2}>
+            <div className="flex gap-5">
+              <div className="image_wrapper">
+                <img className="md:w-full md:h-32 h-20" src="../assets/react.png" alt="" />
+              </div>
+              <div className="image_wrapper">
+                <img className="md:w-full md:h-32 h-20" src="../assets/node.png" alt="" />
+              </div>
+              <div className="image_wrapper">
+                <img
+                  className="md:w-full md:h-32 h-20"
+                  src="../assets/tailwind.png"
+                  alt=""
+                />
+              </div>
+              <div className="image_wrapper">
+                <img
+                  className="md:w-full md:h-32 h-20"
+                  src="../assets/boostrap.png"
+                  alt=""
+                />
+              </div>
+              <div className="image_wrapper">
+                <img className="md:w-full md:h-24 h-20" src="../assets/mongo.png" alt="" />
+              </div>
+            </div>
+          </Marquee>
+        </div>
+
+        
       </div>
     </div>
   );

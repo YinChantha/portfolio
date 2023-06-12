@@ -49,7 +49,7 @@ const About = () => {
         </div>
         <div className="w-11/12 md:w-5/12 py-3 md:py-0 ">
           <img
-            src="src/assets/aboutmee.jpg"
+            src="../assets/aboutmee.jpg"
             className="max-w-full rounded-lg"
             alt=""
           />

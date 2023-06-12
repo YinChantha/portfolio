@@ -6,7 +6,7 @@ const Home = () => {
     <div
       className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('src/assets/bg.jpg')",
+        backgroundImage: "url('../assets/bg.jpg')",
       }}
     >
       <div className="absolute bg-gradient-to-bl from-violet-900 inset-0 opacity-100"></div>
@@ -14,7 +14,7 @@ const Home = () => {
       <div className="absolute bg-gradient-to-tr from-gray-900 inset-0 opacity-100"></div>
       <div className=" relative flex flex-col md:flex-row justify-center h-screen items-center ">
         <div className="absolute bg-gradient-to-tr from-gray-800 inset-0 opacity-100"></div>
-        <div className="w-full md:w-3/12 flex flex-col md:items-start items-center max-sm:w-4/12 ">
+        <div className="w-full md:w-3/12 max-h-32 flex flex-col md:items-start items-center max-sm:w-7/12 ">
           <div>
             <h1 className="font-abhaya font-semibold text-5xl text-white">
               <Typewriter
@@ -36,11 +36,11 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center w-8/12 md:w-5/12 py-20 md:py-0 max-sm:py-6">
+        <div className="flex justify-center w-full md:w-5/12 py-20 md:py-0 max-sm:mt-8">
           <div className="flex flex-col">
             <div>
               <img
-                src="src/assets/profile.jpg"
+                src="../assets/profile.jpg"
                 className="rounded-full shadow-sm shadow-amber-50 outline outline-1 md:w-80 md:h-80 max-md:w-72 max-md:h-72 max-sm:w-40 max-sm:h-40"
                 alt="profile"
               />
