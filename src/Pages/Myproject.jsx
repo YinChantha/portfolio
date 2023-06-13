@@ -54,38 +54,132 @@ const Myproject = (prop) => {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="mt-20 h-8 md:h-10">
-          <Marquee direction="right" speed={100} delay={2}>
-            <div className="flex gap-5">
-              <div className="image_wrapper">
-                <img className="md:w-full md:h-32 h-20" src="../assets/react.png" alt="" />
-              </div>
-              <div className="image_wrapper">
-                <img className="md:w-full md:h-32 h-20" src="../assets/node.png" alt="" />
-              </div>
-              <div className="image_wrapper">
-                <img
-                  className="md:w-full md:h-32 h-20"
-                  src="../assets/tailwind.png"
-                  alt=""
-                />
-              </div>
-              <div className="image_wrapper">
-                <img
-                  className="md:w-full md:h-32 h-20"
-                  src="../assets/boostrap.png"
-                  alt=""
-                />
-              </div>
-              <div className="image_wrapper">
-                <img className="md:w-full md:h-24 h-20" src="../assets/mongo.png" alt="" />
-              </div>
-            </div>
-          </Marquee>
+      <Marquee direction="right" speed={100} delay={5}>
+        <div className="flex gap-5">
+          <div className="image_wrapper">
+            <img
+              className="md:w-full md:h-32 h-20"
+              src="../assets/react.png"
+              alt=""
+            />
+          </div>
+          <div className="image_wrapper">
+            <img
+              className="md:w-full md:h-32 h-20"
+              src="../assets/node.png"
+              alt=""
+            />
+          </div>
+          <div className="image_wrapper">
+            <img
+              className="md:w-full md:h-32 h-20"
+              src="../assets/firebase.png"
+              alt=""
+            />
+          </div>
+          <div className="image_wrapper">
+            <img
+              className="md:w-full md:h-32 h-20"
+              src="../assets/boostrap.png"
+              alt=""
+            />
+          </div>
+          <div className="image_wrapper">
+            <img
+              className="md:w-full md:h-24 h-20"
+              src="../assets/mongo.png"
+              alt=""
+            />
+          </div>
+          <div className="image_wrapper">
+            <img
+              className="md:w-full md:h-32 h-20"
+              src="../assets/tailwind.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </Marquee>
+
+      <div className="relative flex md:flex-row flex-col justify-center items-center m-6">
+        <div className="md:w-6/12 w-full">
+          <div className="flex justify-center" style={{ opacity: 0.7 }}>
+            <img
+              src="../assets/developer.png"
+              className="md:max-w-full w-7/12 object-contain rounded-lg"
+              alt=""
+            />
+          </div>
         </div>
 
-        
+        <div className="md:w-6/12 w-full flex justify-center items-center">
+          <div>
+            <h1 className="font-abhaya font-semibold text-gray-400 md:text-4xl mb-6 ">
+              Experience working on development projects
+            </h1>
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-row  gap-1 md:gap-4 ml-3">
+                <div class="md:w-6 md:h-6 w-2 h-2 bg-gray-500 rounded-full"></div>
+                <p className="font-abhaya text-gray-400 ">
+                  Web 3 trading bot marketplace where users can buy and sell
+                  trading bots.{""}
+                  <a
+                    href="https://github.com/theanlay/Web3-Tradingbot-Frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    GitHub
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    href="https://web3-tradingbot.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    Demo
+                  </a>
+                </p>
+              </div>
+              <div className="flex flex-row gap-1 md:gap-4 ml-3">
+                <div class="md:w-6 flex md:h-6 w-2 h-2 bg-gray-500 rounded-full"></div>
+                <p className="font-abhaya text-gray-400 ">
+                  School Management System for schools where they can manage
+                  their students, teachers, and staff.
+                  {""}
+                  <a
+                    href="https://github.com/incubation-center/Electron-DesktopApp---Group7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    GitHub
+                  </a>
+                </p>
+              </div>
+              <div className="flex flex-row gap-1 md:gap-4 ml-3">
+                <div class="md:w-6 flex md:h-6 w-2 h-2 bg-gray-500 rounded-full"></div>
+                <p className="font-abhaya text-gray-400 ">
+                  Proadvisor provides services to users to help them understand
+                  loans and compare loan options from <br></br> different banks
+                  in Cambodia.
+                  {""}
+                  <a
+                    href="https://github.com/incubation-center/B8-FullStack--Website--Group4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    GitHub
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
