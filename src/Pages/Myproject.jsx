@@ -56,7 +56,7 @@ const Myproject = (prop) => {
         </div>
       </div>
 
-      <Marquee direction="right" speed={100} delay={5}>
+      <Marquee direction="right" speed={100} >
         <div className="flex gap-5 mt-12">
           <div className="image_wrapper">
             <img
@@ -103,7 +103,7 @@ const Myproject = (prop) => {
         </div>
       </Marquee>
 
-      <div className="relative flex md:flex-row flex-col justify-center items-center mt-12 ">
+      <div className="relative flex md:flex-row flex-col justify-center items-center mt-12  ">
         <div className="md:w-6/12 w-full">
           <div className="flex justify-center" style={{ opacity: 0.7 }}>
             <img
