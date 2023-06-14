@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Exclude all files except specific ones
+*
+!.gitignore
+!vercel.json
