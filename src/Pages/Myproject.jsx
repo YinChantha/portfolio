@@ -20,7 +20,7 @@ const Myproject = (prop) => {
         className="fixed inset-0 bg-gradient-to-tr from-black opacity-25"
         style={{ zIndex: -1 }}
       ></div>
-      <div className="relative flex flex-col justify-center h-screen">
+      <div className="relative flex flex-col justify-center mt-36 ">
         <div className="flex justify-center">
           <div className="w-full md:w-6/12 ">
             <img
@@ -31,11 +31,11 @@ const Myproject = (prop) => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center">
           <div className="w-8/12">
             <h1 className="font-abhaya text-gray-400 text-center">
               Experienced video editing, poster designing, photography services
-              to clients to Clients Like:
+              to Clients Like:
             </h1>
             <p className="font-abhaya text-gray-400 text-center">
               The Enknow a factbook page dedicated to sharing new knowledge
@@ -57,7 +57,7 @@ const Myproject = (prop) => {
       </div>
 
       <Marquee direction="right" speed={100} delay={5}>
-        <div className="flex gap-5">
+        <div className="flex gap-5 mt-12">
           <div className="image_wrapper">
             <img
               className="md:w-full md:h-32 h-20"
@@ -103,7 +103,7 @@ const Myproject = (prop) => {
         </div>
       </Marquee>
 
-      <div className="relative flex md:flex-row flex-col justify-center items-center m-6">
+      <div className="relative flex md:flex-row flex-col justify-center items-center mt-12 ">
         <div className="md:w-6/12 w-full">
           <div className="flex justify-center" style={{ opacity: 0.7 }}>
             <img
@@ -114,14 +114,14 @@ const Myproject = (prop) => {
           </div>
         </div>
 
-        <div className="md:w-6/12 w-full flex justify-center items-center">
+        <div className="md:w-6/12 md:max-w-none max-w-md  flex justify-center ">
           <div>
-            <h1 className="font-abhaya font-semibold text-gray-400 md:text-4xl mb-6 ">
+            <h1 className="font-abhaya font-semibold text-gray-400 md:text-4xl text-lg mb-6 ml-3 ">
               Experience working on development projects
             </h1>
             <div className="flex flex-col gap-6">
-              <div className="flex flex-row  gap-1 md:gap-4 ml-3">
-                <div class="md:w-6 md:h-6 w-2 h-2 bg-gray-500 rounded-full"></div>
+              <div className="flex flex-row  gap-1 md:gap-4 md:ml-0 ml-3">
+                <div class="xl:w-6 xl:h-6 w-2 h-1 bg-gray-500 rounded-full mt-3 xl:mt-0"></div>
                 <p className="font-abhaya text-gray-400 ">
                   Web 3 trading bot marketplace where users can buy and sell
                   trading bots.{""}
@@ -131,6 +131,7 @@ const Myproject = (prop) => {
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
                   >
+                    {" "}
                     GitHub
                   </a>{" "}
                   and{" "}
@@ -144,12 +145,11 @@ const Myproject = (prop) => {
                   </a>
                 </p>
               </div>
-              <div className="flex flex-row gap-1 md:gap-4 ml-3">
-                <div class="md:w-6 flex md:h-6 w-2 h-2 bg-gray-500 rounded-full"></div>
+              <div className="flex flex-row gap-1 md:gap-4 md:ml-0 ml-3">
+                <div class="xl:w-6 flex xl:h-6 w-2 h-1 bg-gray-500 rounded-full mt-3 xl:mt-0"></div>
                 <p className="font-abhaya text-gray-400 ">
                   School Management System for schools where they can manage
-                  their students, teachers, and staff.
-                  {""}
+                  their students, teachers, and staff.{" "}
                   <a
                     href="https://github.com/incubation-center/Electron-DesktopApp---Group7"
                     target="_blank"
@@ -160,13 +160,12 @@ const Myproject = (prop) => {
                   </a>
                 </p>
               </div>
-              <div className="flex flex-row gap-1 md:gap-4 ml-3">
-                <div class="md:w-6 flex md:h-6 w-2 h-2 bg-gray-500 rounded-full"></div>
+              <div className="flex flex-row  gap-1 md:gap-4 md:ml-0 ml-3">
+                <div class="xl:w-6 flex xl:h-6 w-2 h-1 bg-gray-500 rounded-full mt-3 xl:mt-0"></div>
                 <p className="font-abhaya text-gray-400 ">
                   Proadvisor provides services to users to help them understand
                   loans and compare loan options from <br></br> different banks
-                  in Cambodia.
-                  {""}
+                  in Cambodia.{" "}
                   <a
                     href="https://github.com/incubation-center/B8-FullStack--Website--Group4"
                     target="_blank"
@@ -177,6 +176,7 @@ const Myproject = (prop) => {
                   </a>
                 </p>
               </div>
+              <br></br>{" "}
             </div>
           </div>
         </div>
