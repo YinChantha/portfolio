@@ -90,7 +90,7 @@ const Navbar = () => {
                 to="/myproject"
                 className="font-abhaya font-semibold text-3xl"
               >
-                Myproject
+                My Projects
               </Link>
             </li>
           </ul>
