@@ -4,19 +4,24 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const [blurbackground, setBlurbackground] = useState(false);
+
   const toggleNavbar = () => {
     setNavbar(!navbar);
     setBlurbackground(!blurbackground);
+  };
+
+  const preventToggle = () => {
+    setNavbar(false);
+    setBlurbackground(false);
   };
 
   return (
     <div className={`h-screen`}>
       <nav
         className={`relative z-10 md:bg-none items-center ${
-          blurbackground ? "bg-gray-900 opacity-90 h-full" : ""
+          blurbackground ? "bg-gray-900 bg-opacity-95 h-full" : ""
         }`}
       >
-        
         <div className="flex items-center justify-end py-1 md:py-5 md:block">
           <div className="md:hidden">
             <button
@@ -60,10 +65,10 @@ const Navbar = () => {
             navbar ? "block " : "hidden"
           }`}
         >
-          <ul className="items-center justify-center gap-10 space-y-2 md:flex md:space-x-6 md:space-y-0">
+          <ul className="items-center justify-center gap-10 space-y-6 md:flex md:space-x-6 md:space-y-0">
             <li
               className="text-gray-400 hover:text-blue-600 "
-              onClick={toggleNavbar}
+              onClick={preventToggle}
             >
               <Link to="/" className="font-abhaya font-semibold text-3xl ">
                 Home
@@ -71,7 +76,7 @@ const Navbar = () => {
             </li>
             <li
               className="text-gray-400 hover:text-blue-600"
-              onClick={toggleNavbar}
+              onClick={preventToggle}
             >
               <Link to="/about" className="font-abhaya font-semibold text-3xl">
                 About
@@ -79,7 +84,7 @@ const Navbar = () => {
             </li>
             <li
               className="text-gray-400 hover:text-blue-600"
-              onClick={toggleNavbar}
+              onClick={preventToggle}
             >
               <Link
                 to="/myproject"
