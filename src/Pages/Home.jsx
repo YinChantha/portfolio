@@ -14,7 +14,7 @@ const Home = () => {
       <div className="absolute bg-gradient-to-tr from-gray-900 inset-0 opacity-100"></div>
       <div className=" relative flex flex-col md:flex-row justify-center h-screen items-center ">
         <div className="absolute bg-gradient-to-tr from-gray-800 inset-0 opacity-100"></div>
-        <div className="w-full md:w-3/12 max-h-32 flex flex-col md:items-start items-center max-sm:w-7/12 ">
+        <div className="w-full md:w-3/12 md:max-h-0 max-h-28 flex flex-col md:items-start items-center max-sm:w-7/12 ">
           <div>
             <h1 className="font-abhaya font-semibold text-5xl text-white">
               <Typewriter
