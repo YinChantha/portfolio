@@ -13,9 +13,10 @@ const Navbar = () => {
     <div className={`h-screen`}>
       <nav
         className={`relative z-10 md:bg-none items-center ${
-          blurbackground ? "bg-gradient-to-tr from-gray-900 h-full" : ""
+          blurbackground ? "bg-gray-900 opacity-90 h-full" : ""
         }`}
       >
+        
         <div className="flex items-center justify-end py-1 md:py-5 md:block">
           <div className="md:hidden">
             <button
