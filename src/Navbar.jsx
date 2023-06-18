@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex items-center justify-end py-1 md:py-5 md:block">
           <div className="md:hidden">
             <button
-              className="p-2 m-5 bg-white rounded-md focus:outline-none focus:border-gray-100 "
+              className="p-2 m-5 bg-gray-300 rounded-md focus:outline-none focus:border-gray-100 "
               onClick={toggleNavbar}
             >
               {navbar ? (
