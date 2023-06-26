@@ -149,7 +149,7 @@ const Myproject = (prop) => {
                 <div class="xl:w-6 flex xl:h-6 w-2 h-1 bg-gray-500 rounded-full mt-3 xl:mt-0"></div>
                 <p className="font-abhaya text-gray-400 ">
                   School Management System for schools where they can manage
-                  their students, teachers, and staff.{" "}
+                  their students, teachers,and staff.{" "}
                   <a
                     href="https://github.com/incubation-center/Electron-DesktopApp---Group7"
                     target="_blank"
@@ -178,6 +178,9 @@ const Myproject = (prop) => {
               </div>
               <br></br>{" "}
             </div>
+            <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+              <a href="myprojects">Read More</a>
+            </button>
           </div>
         </div>
       </div>
