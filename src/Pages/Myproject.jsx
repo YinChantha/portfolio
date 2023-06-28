@@ -28,7 +28,7 @@ const Myproject = (prop) => {
       <div className="relative flex flex-col justify-center mt-36 ">
         <div
           data-aos="fade-down"
-          data-aos-easing="linear"
+          // data-aos-easing="linear"
           data-aos-duration="1500"
           data-aos-offset="200"
           className="flex justify-center"
@@ -137,10 +137,9 @@ const Myproject = (prop) => {
         </div>
 
         <div
-          data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-duration="2000"
+          data-aos="zoom-in"
           className="md:w-6/12  flex justify-center "
         >
           <div className="md:mt-0 mt-6">
