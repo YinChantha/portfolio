@@ -70,7 +70,7 @@ const Navbar = () => {
               className="text-gray-400 hover:text-blue-600 "
               onClick={preventToggle}
             >
-              <Link to="/" className="font-abhaya font-semibold text-3xl ">
+              <Link to="/" className="font-abhaya font-semibold text-4xl ">
                 Home
               </Link>
             </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
               className="text-gray-400 hover:text-blue-600"
               onClick={preventToggle}
             >
-              <Link to="/about" className="font-abhaya font-semibold text-3xl">
+              <Link to="/about" className="font-abhaya font-semibold text-4xl">
                 About
               </Link>
             </li>
@@ -88,7 +88,7 @@ const Navbar = () => {
             >
               <Link
                 to="/myproject"
-                className="font-abhaya font-semibold text-3xl"
+                className="font-abhaya font-semibold text-4xl"
               >
                 My Projects
               </Link>

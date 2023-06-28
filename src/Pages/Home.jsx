@@ -16,7 +16,7 @@ const Home = () => {
         <div className="absolute bg-gradient-to-tr from-gray-800 inset-0 opacity-100"></div>
         <div className="w-full md:w-3/12 md:max-h-0 max-h-28 flex flex-col md:items-start items-center max-sm:w-7/12 ">
           <div>
-            <h1 className="font-abhaya font-semibold text-5xl text-white">
+            <h1 className="font-abhaya font-semibold text-6xl text-white">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter.typeString("Yin Chantha").start();
@@ -25,7 +25,7 @@ const Home = () => {
             </h1>
           </div>
           <div className="mt-4">
-            <p className="font-abhaya text-gray-200">
+            <p className="font-abhaya text-xl text-gray-200">
               <Typewriter
                 options={{
                   strings: [" WEBSITE DEVELOPER, MOBILE DEVELOPER, DESIGNER."],
@@ -54,8 +54,8 @@ const Home = () => {
                 target="_blank"
               >
                 <svg
-                  width="29"
-                  height="29"
+                  width="35"
+                  height="35"
                   viewBox="0 0 49 49"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,8 +68,8 @@ const Home = () => {
               </Link>
               <Link to="https://www.facebook.com/chan.tha.7731" target="_blank">
                 <svg
-                  width="29"
-                  height="29"
+                  width="35"
+                  height="35"
                   viewBox="0 0 49 49"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,8 +82,8 @@ const Home = () => {
               </Link>
               <Link to="https://github.com/YinChantha" target="_blank">
                 <svg
-                  width="29"
-                  height="29"
+                  width="35"
+                  height="35"
                   viewBox="0 0 50 49"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

@@ -7,9 +7,9 @@ const About = () => {
       <div className="absolute bg-gradient-to-bl from-violet-900 inset-0 opacity-100"></div>
       <div className="absolute bg-gradient-to-br from-gray-900 inset-0 opacity-100"></div>
       <div className="absolute bg-gradient-to-tr from-gray-900 inset-0 opacity-100"></div>
-      <div className=" relative flex flex-col md:flex-row justify-center h-screen items-center ">
+      <div className=" relative flex flex-col md:flex-row md:justify-between md:p-28 p-0 justify-center h-screen items-center ">
         <div className="absolute bg-gradient-to-tr from-gray-800 inset-0 opacity-100 z-0"></div>
-        <div className="w-11/12 md:w-5/12 flex flex-col gap-y-4 md:mt-0 mt-12">
+        <div className="w-11/12 md:w-6/12 flex flex-col gap-y-4 md:mt-0 mt-12">
           <div>
             <h1 className="font-abhaya font-semibold text-4xl md:text-6xl text-white">
               <Typewriter
@@ -19,14 +19,15 @@ const About = () => {
               />
             </h1>
           </div>
+
           <div className="flex flex-col gap-y-4">
-            <p className="font-abhaya text-white">
+            <p className="font-abhaya text-xl text-white">
               Highly motivated and skilled Software Engineering student seeking
               challenging opportunities to apply my extensive internship
               experience and proficiency in designing, mobile, and web
               development using cutting-edge technologies.
             </p>
-            <h1 className="font-abhaya font-semibold text-white">
+            <h1 className="font-abhaya text-xl font-semibold text-white">
               Bachelor of Science in Software Engineering ( Expected Graduation:
               [October, 2023] )<br></br>[Kirirom Institute Of Technology],
               [Kampong Speu, Cambodia]
@@ -47,7 +48,7 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className="w-11/12 md:w-5/12 py-3 md:py-0 ">
+        <div className="w-11/12 md:w-6/12 py-3 md:py-0 md:ml-2 ml-0 ">
           <img
             src="../assets/aboutmee.jpg"
             className="max-w-full rounded-lg"

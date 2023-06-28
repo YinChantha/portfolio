@@ -49,7 +49,7 @@ const Readmore = () => {
         >
           <div className="md:mt-16 mt-3">
             <div>
-              <p className="font-abhaya text-gray-400 md:text-start md:text-lg text-center">
+              <p className="font-abhaya text-gray-400 md:text-start md:text-xl text-center">
                 School Management System or SMS is the project training under
                 MR. GOTO who is a technical support student in KIT. This
                 innovative system empowers schools to efficiently manage their
@@ -61,7 +61,7 @@ const Readmore = () => {
                 leverage technology to streamline their operations.
               </p>
               <div className="flex md:justify-start justify-center py-2">
-                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 md:text-xl text-sm rounded inline-flex items-center">
                   <a
                     href="https://drive.google.com/file/d/1Sv79ozkSvb8EOxHEzd-bd3cKmZV3Bgx9/view?usp=sharing"
                     target="_blank"
@@ -84,7 +84,7 @@ const Readmore = () => {
         >
           <div className="md:mt-16 mt-3">
             <div className="md:ml-6 ml-0">
-              <p className="font-abhaya text-gray-400 md:text-start md:text-lg text-center">
+              <p className="font-abhaya text-gray-400 md:text-start md:text-xl text-center">
                 Web3, a cutting-edge blockchain technology, revolutionizes the
                 digital landscape by creating an inclusive marketplace where
                 users can buy and sale the trading bots. This groundbreaking
@@ -94,7 +94,7 @@ const Readmore = () => {
                 React.js.
               </p>
               <div className="flex md:justify-start justify-center py-2">
-                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 md:text-xl text-sm font-bold py-2 px-4 rounded inline-flex items-center">
                   <a href="https://web3-tradingbot.vercel.app/" target="_blank">
                     Demo
                   </a>
@@ -144,7 +144,7 @@ const Readmore = () => {
         >
           <div className="md:mt-0 mt-3">
             <div>
-              <p className="font-abhaya text-gray-400 md:text-start md:text-lg text-center">
+              <p className="font-abhaya text-gray-400 md:text-start md:text-xl text-center">
                 ProAdvisor is a comprehensive bootcamp project aimed at
                 developing a robust platform that assists users in effortlessly
                 discovering the optimal choices for comparing loans, fixed
